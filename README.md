@@ -50,8 +50,8 @@ Content-Type: application/json
 
 | Field        | Type   | Required | Description                          | Example                                         |
 | ------------ | ------ | -------- | ------------------------------------ | ----------------------------------------------- |
-| firstName    | string | Yes      | Cardholder’s first name              | "Jumlpanji"                                     |
-| lastName     | string | Yes      | Cardholder’s last name               | "Komplba"                                       |
+| firstName    | string | Yes      | Cardholder’s first name              | "Juma"                                     |
+| lastName     | string | Yes      | Cardholder’s last name               | "Komba"                                       |
 | email        | string | Yes      | Email address                        | "[customer@mail.com](mailto:customer@mail.com)" |
 | phone        | string | Yes      | Phone with country code              | "+255652534449389"                              |
 | dateOfBirth  | string | Yes      | Format: YYYY-MM-DD                   | "1990-02-28"                                    |
@@ -70,8 +70,8 @@ curl -X POST "https://zenoapi.com/api/payments/cardholders/" \
   -H "x-api-key: YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "firstName": "Jumlpanji",
-    "lastName": "Komplba",
+    "firstName": "Juma",
+    "lastName": "Komba",
     "email": "customer@mail.com",
     "phone": "+255652534449389",
     "dateOfBirth": "1990-02-28",
