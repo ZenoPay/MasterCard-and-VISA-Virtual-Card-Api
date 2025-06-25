@@ -124,8 +124,8 @@ curl -X GET "https://zenoapi.com/api/payments/my_cardholders/" \
   "message": "Cardholder(s) fetched successfully",
   "cardholders": [
     {
-      "first_name": "Jumlpanji",
-      "last_name": "Komplba",
+      "first_name": "Juma",
+      "last_name": "Komba",
       "email": "customer@mail.com",
       "phone": "+255652534449389",
       "address": "Sinza Mori",
